@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
-const functionApiUrl = 'http://localhost:7071/api/GerResumeCount';
-const localFunctionApi = 'http://localhost:7071/api/GerResumeCount';
+const functionApiUrl = 'http://localhost:7071/api/GetResumeCount';
+const localFunctionApi = 'http://localhost:7071/api/GetResumeCount';
 
 const getVisitCount = () => {
     let count = 30;
